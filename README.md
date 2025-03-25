@@ -48,9 +48,13 @@ CREATE TABLE sales_records (
     category VARCHAR(50),
     sale_date DATE
 );
+
+
 Setup and Installation
 Clone the Repository:
 git clone https://github.com/Vaishali806/Sales-Invoice-Management.git
+
+
 
 Set up MySQL Database:
 
@@ -68,7 +72,7 @@ Access the application through the browser.
 
 Access the Application:
 
-Open the application URL in your browser: http://localhost:8080/sales-invoice-management
+Open the application URL in your browser: http://localhost:8080/Billing_Project/index.jsp
 
 Usage
 Once the application is running, users can:
