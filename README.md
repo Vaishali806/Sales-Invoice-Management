@@ -32,3 +32,53 @@ JavaScript for form validation and client-side interactions
 IDE: Eclipse or IntelliJ IDEA (for development)
 
 Version Control: Git, GitHub
+
+Database Schema
+The Sales Invoice Management System uses the following database schema:
+
+sales_records table:
+Stores the records of all sales transactions.
+
+CREATE TABLE sales_records (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    customer_name VARCHAR(100),
+    product VARCHAR(100),
+    quantity INT,
+    price DOUBLE,
+    category VARCHAR(50),
+    sale_date DATE
+);
+Setup and Installation
+Clone the Repository:
+git clone https://github.com/Vaishali806/Sales-Invoice-Management.git
+
+Set up MySQL Database:
+
+Create a MySQL database and configure the connection settings in the application.
+
+Run the provided SQL script to create the sales_records table and insert sample data.
+
+Build and Run the Application:
+
+Open the project in your preferred IDE (Eclipse/IntelliJ IDEA).
+
+Compile and deploy the application to a local or remote server.
+
+Access the application through the browser.
+
+Access the Application:
+
+Open the application URL in your browser: http://localhost:8080/sales-invoice-management
+
+Usage
+Once the application is running, users can:
+
+View the list of most sold products.
+
+Filter products by category (Electronics, Furniture, Clothing).
+
+Search products by their name.
+
+Export the sales data to CSV, Excel, or PDF format.
+
+
